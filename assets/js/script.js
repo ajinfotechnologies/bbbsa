@@ -408,7 +408,7 @@ else if (findName == $("#Aggregator").attr("id")) {
         }
         else if (findName == $("#LVR").attr("id")) {
             $("#LVR").text( findValue);
-
+            $("#LVR1").text( findValue);
         }
         else if (findName == $("#InitialAdvance").attr("id")) {
             $("#InitialAdvance").text( findValue);
