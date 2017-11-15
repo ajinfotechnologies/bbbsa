@@ -903,7 +903,7 @@
                                                                 <tr>
                                                                     <td valign="top">&nbsp;</td>
                                                                     <td valign="top">
-                                                                        <p style="text-align: justify; font-family: Arial;">Once the amounts set out above have been paid, then subject to there being no Event of Default and the Borrower maintaining at all times an agreed Reserve Amount in that account, the Borrower is entitled to the balance of the monies standing to the credit of the Proceeds Account excluding the Reserve Amount.</p>
+                                                                        <input type="checkbox" /> Once the amounts set out above have been paid, then subject to there being no Event of Default and the Borrower maintaining at all times an agreed Reserve Amount in that account, the Borrower is entitled to the balance of the monies standing to the credit of the Proceeds Account excluding the Reserve Amount.
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -1162,7 +1162,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top" class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <input type="checkbox" /> NIL
                                                                     </td>
@@ -1176,7 +1176,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top"  class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <input type="checkbox" />Guarantee to be provided by
                                                                         <!--id--><span id="ContactName"></span>
@@ -1192,7 +1192,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top"  class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <input type="checkbox" />Tripartite Agreement to be entered into between the Borrower, the Lender and the Aggregator in the standard form of tripartite deed for the Lender.
                                                                     </td>
@@ -1240,7 +1240,7 @@
                                                         <div style="text-align: justify; font-family: Arial;">
                                                             <p style="text-align: justify; font-family: Arial;">If a Potential Event of Default has occurred, an Event of Default is subsisting or there has been a change in control of the Borrower or the Guarantor, the Lender has the option to convert the Principal Outstanding into equity:</p>
                                                             <p style="text-align: justify; font-family: Arial;">a)&nbsp;&nbsp;&nbsp;&nbsp;by payment of Option Price A to the Borrower, a right to acquire an amount equal to
-                                                                <!--id--><span id="LVR"></span>
+                                                                <!--id--><span id="LVR1"></span>
                                                                 <!--id-->% or the revised percentage in accordance with further amounts drawn of the Target Revenues Book; and&nbsp;</p>b)&nbsp;&nbsp;&nbsp;&nbsp;by payment of Option Price B, a right to acquire all of the remaining trail income of the Target Recurring Revenues Book whether paid or deferred.
                                                             <br />
                                                             <br />
