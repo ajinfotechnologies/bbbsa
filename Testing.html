@@ -865,7 +865,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td valign="top" class="removeCell">&nbsp;</td>
-                                                                    <td valign="top">
+                                                                    <td valign="top" class="tableInCell">
                                                                         <table class="NestedTbl" style="font-family: Arial;">
                                                                             <tbody>
                                                                                 <tr>
@@ -912,7 +912,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td valign="top" class="removeCell">&nbsp;</td>
-                                                                    <td valign="top">
+                                                                    <td valign="top" class="tableInCell">
                                                                         <table class="NestedTbl" style="font-family: Arial;">
                                                                             <tbody>
                                                                                 <tr>
@@ -1641,6 +1641,11 @@
                     });
                     $("#exportSection .notCheckedInTbl").each(function () {
                         $(this).parent().remove();
+                    });
+                    $("#exportSection .tableInCell tbody").each(function () {
+                        if ($(this).children().length == 0 ){
+                            $(this).parent().parent().parent().remove();
+                        }
                     });
                     $("#exportSection select").each(function () {
                         $(this).parent().remove();
