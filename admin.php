@@ -1,7 +1,6 @@
-	<?php $con = mysqli_connect('localhost','bbbsa','be%pZE))TN8C','bbbsa') or die("ERROR");
-		
-		$query = mysqli_query($con, "select * from content_table");
-		?>
+<?php $con = mysqli_connect('localhost','bbbsa','be%pZE))TN8C','bbbsa') or die("ERROR");
+    $query = mysqli_query($con, "select * from content_table");
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +21,6 @@
             p.sansserif {
                 font-family: Arial;
             }
-           
             .word-export
             {
                 background:#1381ad;
@@ -37,17 +35,14 @@
         </style>
     </head>
     <body id="page-content">
-     <span style="float: right; margin-right: 60px;margin-Top: 80px;">
-        <a type="button" class="word-export" href="edit.php"> Edit Content </a>
-    </span>
-
-	
-	<?php
-  $output=mysqli_fetch_assoc($query);
-  echo  str_replace("!=","'",$output['comment']);
-    
-  ?>
-   <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <span style="float: right; margin-right: 60px;margin-Top: 80px;">
+            <a type="button" class="word-export" href="edit.php"> Edit Content </a>
+        </span>
+        <?php
+            $output=mysqli_fetch_assoc($query);
+            echo  str_replace("!=","'",$output['comment']);
+        ?>
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/js/FileSaver.js"></script>
         <script src="assets/js/jquery.wordexport.js"></script>
         <script>
@@ -109,7 +104,7 @@
                     $("#exportSection .signature[style*='display: none;']").remove();
                     $("#exportSection :text").remove();
                     $("#exportSection :checkbox").remove();
-
+                    $("#exportSection .removeCell").remove();
                     $("#exportSection").wordExport();
                     /* removing the added div element with id #exportSection from document-body after .wordExport()*/
                     var removeEle = document.getElementById("exportSection");
@@ -121,7 +116,6 @@
         </script>
         <!--Word Export End-->
         <script>
-
             var month = new Array();
             month[0] = "January";
             month[1] = "February";
@@ -135,14 +129,12 @@
             month[9] = "October";
             month[10] = "November";
             month[11] = "December";
-
             var d = new Date();
             var s = d.getDate();
             var n = month[d.getMonth()];
             var p = d.getFullYear();
             //     $("#sss").text( p);
             document.getElementById("Today").innerHTML = s + " " + n + " " + p;
-
         </script>
         <script>
             function color3(color3_type) {
