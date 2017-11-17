@@ -338,8 +338,8 @@
                                                     </div>
                                                     <div class="AgreedC2 boxt3" style="font-family: Arial;">
                                                         <div class="row" style="font-family: Arial; text-align: justify;">
-                                                            <div class=" col-sm-11" style="font-family: Arial;">Up to $
-                                                                <!--id--><span id="FacilityAmount"></span>
+                                                            <div class=" col-sm-11" style="font-family: Arial;">Up to 
+                                                                $<!--id--><span id="FacilityAmount"></span>
                                                                 <!--id-->which can be drawn in
                                                                 <!--id--><span id="NumberOfDrawings"></span>
                                                                 <!--id-->instalments, the second and third occurring less than
@@ -419,8 +419,8 @@
                                                 <td style="border: 1px solid black; padding: 5px;" width="70%">
                                                     <div class="col-sm-12" style="font-family: Arial;">
                                                         <p>Interest Rate is
-                                                            <!--id--><span id="InterestRatePerAnnum"></span>
-                                                            <!--id-->% per annum</p>
+                                                            <!--id--><span id="InterestRatePerAnnum"></span>%
+                                                            <!--id--> per annum</p>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -498,8 +498,8 @@
                                                 </td>
                                                 <td style="border: 1px solid black; padding: 5px;" width="70%">
                                                     <div class="col-sm-12 rstbch77" style="font-family: Arial; text-align: justify;">
-                                                        <p>The Borrower must pay to the Lender equal monthly repayments of $
-                                                            <!--id--><span id="MonthlyRepayment"></span>
+                                                        <p>The Borrower must pay to the Lender equal monthly repayments of 
+                                                            $<!--id--><span id="MonthlyRepayment"></span>
                                                             <!--id-->for each repayment.</p>
                                                     </div>
                                                 </td>
@@ -977,8 +977,8 @@
                                                         <div class="row" style="font-family: Arial; text-align: justify;">
                                                             <div class=" col-sm-11 rstbch9" style="font-family: Arial;">
                                                                 <div style="font-family: Arial;">
-                                                                    <input name="Borroweragrees1" type="checkbox" /><strong>Deferred Establishment Fee:</strong> The Borrower agrees to pay to the Lender a termination fee of $
-                                                                    <!--id--><span id="DefferedEstablishmentFees"></span>
+                                                                    <input name="Borroweragrees1" type="checkbox" /><strong>Deferred Establishment Fee:</strong> The Borrower agrees to pay to the Lender a termination fee of 
+                                                                    <!--id-->$<span id="DefferedEstablishmentFees"></span>
                                                                     <!--<input type="text" id="text6" onkeyup="change6()"><span hidden="" id="div6"></span> -->on the earlier of the Maturity Date; or if applicable, early repayment date, if required under the Loan Agreement.
                                                                     <br />
                                                                     <br />
@@ -1251,12 +1251,12 @@
                                                         <br />
                                                         <br /> <strong>Differential Amount</strong> means [(Actual Recurring Revenue Receivable Income) - (Monthly Repayment Amount)]
                                                         <br />
-                                                        <br /> <strong>Monthly Repayment Amount</strong> means &nbsp; $
+                                                        <br /> <strong>Monthly Repayment Amount</strong> means &nbsp; 
                                                         <!--id--><span id="MonthlyRepayment2"></span>
-                                                        <!--id-->or the updated repayment due under the terms of the additional drawings.
+                                                        $<!--id-->or the updated repayment due under the terms of the additional drawings.
                                                         <br />
-                                                        <br /> <strong>Multiplier</strong> means &nbsp; $
-                                                        <!--id--><span id="ValuationMultiple1"></span>
+                                                        <br /> <strong>Multiplier</strong> means &nbsp; 
+                                                        $<!--id--><span id="ValuationMultiple1"></span>
                                                         <!--id-->
                                                         <br />
                                                         <br /> <strong>Option Price A</strong> means $1.00
@@ -1327,8 +1327,8 @@
                                 </div>
                                 <br>
                                 <div style="text-align: justify; font-family: Arial;">
-                                    <input type="checkbox" /> The Borrower will pay an estimated $
-                                    <!--id--><span id="LegalFees"></span>
+                                    <input type="checkbox" /> The Borrower will pay an estimated 
+                                    <!--id-->$<span id="LegalFees"></span>
                                     <!--id-->(plus GST) towards the legal costs incidental to the preparation and completion of this Agreement. If the Borrower elects not to proceed, through no fault of the Lender, then post signing this Agreement the Borrower will become responsible to pay 100% of these Costs plus the Set-up Fee within 30 days of signature. The Borrower will pay the costs of an independent valuation of the Target trail book.
                                 </div>
                                 <br>
