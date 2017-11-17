@@ -1,7 +1,6 @@
-	<?php $con = mysqli_connect('localhost','bbbsa','be%pZE))TN8C','bbbsa') or die("ERROR");
-		
-		$query = mysqli_query($con, "select * from content_table");
-		?>
+<?php $con = mysqli_connect('localhost','bbbsa','be%pZE))TN8C','bbbsa') or die("ERROR");
+    $query = mysqli_query($con, "select * from content_table");
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,17 +37,14 @@
         </style>
     </head>
     <body id="page-content">
-     <!--<span style="float: right; margin-right: 60px;margin-Top: 80px;">
-        <a type="button" class="word-export" href="edit.php"> Edit Content </a>
-    </span>-->
-
-	
-	<?php
-  $output=mysqli_fetch_assoc($query);
-  echo  str_replace("!=","'",$output['comment']);
-    
-  ?>
-  <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <!--<span style="float: right; margin-right: 60px;margin-Top: 80px;">
+            <a type="button" class="word-export" href="edit.php"> Edit Content </a>
+        </span>-->
+        <?php
+            $output=mysqli_fetch_assoc($query);
+            echo  str_replace("!=","'",$output['comment']);
+        ?>
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/js/FileSaver.js"></script>
         <script src="assets/js/jquery.wordexport.js"></script>
         <script>
@@ -89,10 +85,10 @@
                     document.body.appendChild(DIV);
 
                     /*var style = document.createElement("STYLE");
-                     style.id = "printCSS";
-                     var css = document.createTextNode("table { border: 3px solid !important; }");
-                     style.appendChild(css);
-                     document.head.appendChild(style);*/
+                        style.id = "printCSS";
+                        var css = document.createTextNode("table { border: 3px solid !important; }");
+                        style.appendChild(css);
+                        document.head.appendChild(style);*/
                     $("#exportSection .notCheckedInNestedTbl").each(function () {
                         $(this).parent().remove();
                     });
@@ -104,25 +100,24 @@
                     });
 
                     /*$("#exportSection :checkbox:not(:checked)").each(function(){
-                     console.log("$(this).parent() " , $(this).parent());
-                     $(this).parent().remove();
-                     });*/
+                        console.log("$(this).parent() " , $(this).parent());
+                        $(this).parent().remove();
+                        });*/
                     $("#exportSection .signature[style*='display: none;']").remove();
                     $("#exportSection :text").remove();
                     $("#exportSection :checkbox").remove();
-
+                    $("#exportSection .removeCell").remove();
                     $("#exportSection").wordExport();
                     /* removing the added div element with id #exportSection from document-body after .wordExport()*/
                     var removeEle = document.getElementById("exportSection");
                     removeEle.parentNode.removeChild(removeEle);
                     /*var removeStyle = document.getElementById("printCSS");
-                     removeStyle.parentNode.removeChild(removeStyle);*/
+                        removeStyle.parentNode.removeChild(removeStyle);*/
                 });
             });
         </script>
         <!--Word Export End-->
         <script>
-
             var month = new Array();
             month[0] = "January";
             month[1] = "February";
@@ -143,7 +138,6 @@
             var p = d.getFullYear();
             //     $("#sss").text( p);
             document.getElementById("Today").innerHTML = s + " " + n + " " + p;
-
         </script>
         <script>
             function color3(color3_type) {
