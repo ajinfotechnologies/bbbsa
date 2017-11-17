@@ -1252,8 +1252,8 @@
                                                         <br /> <strong>Differential Amount</strong> means [(Actual Recurring Revenue Receivable Income) - (Monthly Repayment Amount)]
                                                         <br />
                                                         <br /> <strong>Monthly Repayment Amount</strong> means &nbsp; 
-                                                        <!--id--><span id="MonthlyRepayment2"></span>
-                                                        $<!--id-->or the updated repayment due under the terms of the additional drawings.
+                                                        <!--id-->$<span id="MonthlyRepayment2"></span>
+                                                        <!--id-->or the updated repayment due under the terms of the additional drawings.
                                                         <br />
                                                         <br /> <strong>Multiplier</strong> means &nbsp; 
                                                         $<!--id--><span id="ValuationMultiple1"></span>
