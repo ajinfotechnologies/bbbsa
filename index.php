@@ -95,6 +95,11 @@
                     $("#exportSection .notCheckedInTbl").each(function () {
                         $(this).parent().remove();
                     });
+                    $("#exportSection .tableInCell tbody").each(function () {
+                        if ($(this).children().length == 0 ){
+                            $(this).parent().parent().parent().remove();
+                        }
+                    });
                     $("#exportSection select").each(function () {
                         $(this).parent().remove();
                     });
