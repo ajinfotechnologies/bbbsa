@@ -799,7 +799,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top" class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <input id="Lender account used" type="checkbox" />The Lender shall nominate a bank account, which shall be used for receipt of any trailing commissions owing to the Lender in relation to the Target Recurring Revenue Book and repayments of Loan Principal or interest to the Lender under this Agreement.
                                                                     </td>
@@ -811,7 +811,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top" class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <input id="accountaggregator" type="checkbox" />The following bank account shall be used for receipt of any trailing commissions owing to the Lender in relation to the Target Recurring Revenue Book and repayments of Loan Principal or interest to the Lender under this Agreement.
                                                                         <br>"Proceeds Account" details are as follows:
@@ -830,7 +830,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top" class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <input id="accountaggregator" type="checkbox" />The Lender will establish and maintain an account entitled "Proceeds Account". The Borrower must ensure that the Aggregator deposits in or to the Proceeds Account
                                                                         <!--id--><span id="MonthlyRepayment"></span>
@@ -852,7 +852,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top" class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <input id="Westpac account established" type="checkbox" />The Borrower must establish and maintain an account entitled "Proceeds Account" in the name of the Borrower and deposit or ensure that there is deposited in or to the Proceeds Account all amounts paid to the Borrower under the Introducer Agreement, including the proceeds of the Recurring Revenue Book Receivables
                                                                     </td>
@@ -864,7 +864,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top" class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <table class="NestedTbl" style="font-family: Arial;">
                                                                             <tbody>
@@ -905,13 +905,13 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top" class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <input type="checkbox" /> Withdrawals of amounts standing to the credit of the Proceeds Account may only be applied for the following purposes and in the following order of priority:
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top" class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <table class="NestedTbl" style="font-family: Arial;">
                                                                             <tbody>
@@ -941,7 +941,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top"  class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <input type="checkbox" /> Once the amounts set out above have been paid, then subject to there being no Event of Default and the Borrower maintaining at all times an agreed Reserve Amount in that account, the Borrower is entitled to the balance of the monies standing to the credit of the Proceeds Account excluding the Reserve Amount.
                                                                     </td>
@@ -953,7 +953,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top" class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <input type="checkbox" />At any time whilst an Event of Default or Potential Event of Default is subsisting, no withdrawals from the Proceeds Account may be made without the prior written consent of the Lender or otherwise as required by any applicable law.
                                                                     </td>
@@ -965,7 +965,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top">&nbsp;</td>
+                                                                    <td valign="top" class="removeCell">&nbsp;</td>
                                                                     <td valign="top">
                                                                         <input type="checkbox" />At any time after an Event of Default occurs and is subsisting, the Lender may apply the whole, or such part as the Lender determines, of the credit balance of the Proceeds Account against or in the reduction of the Secured Money and the Secured Money will be satisfied to the extent of such application.
                                                                     </td>
@@ -1654,7 +1654,6 @@
                     $("#exportSection :text").remove();
                     $("#exportSection :checkbox").remove();
                     $("#exportSection .removeCell").remove();
-                     $("#exportSection .NestedTbl > tbody");
                     $("#exportSection").wordExport();
                     /* removing the added div element with id #exportSection from document-body after .wordExport()*/
                     var removeEle = document.getElementById("exportSection");
